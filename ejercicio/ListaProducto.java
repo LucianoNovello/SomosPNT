@@ -29,6 +29,9 @@ public class ListaProducto{
 		}
 		
 		return buildi.toString();
+		System.out.println("======================================");
+		System.out.println("Producto mas caro "+ Lista.PrecioMaximo());
+		System.out.println("Producto mas barato "+ Lista.PrecioMinimo());
 	
 	}
 
